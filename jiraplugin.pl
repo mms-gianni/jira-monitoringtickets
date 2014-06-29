@@ -9,7 +9,7 @@ use Data::Util qw(:validate);
 my $jirauser = 'YOURUSER';
 my $passwd   = 'YOURPASS';
 my $icingacmd = "/var/lib/icinga/rw/icinga.cmd";
-my $jira = "ttps://srfmmz.atlassian.net";
+my $jira = "https://yourinstallation.atlassian.net";
 
 my @priorities = ('Blocker', 'Critical', 'Major', 'Minor');
 my $priorityselect;
