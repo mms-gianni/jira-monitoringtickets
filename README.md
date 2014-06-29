@@ -8,8 +8,7 @@ We have a businessprocess in which we create Jira tickets in Jira for Icinga ale
 
 This Perl script enables you to create Jira issues directly from your Icinga alerts. At the same time it will acknowledge your allert an leave a comment, with the Ticket-Number from Jira which was created for this alert. 
 
-![Screenshot of the Jira form in icinga](/doc/img/form.png?raw=true "jira form in icinga")
-
+![Screenshot of the Jira form in icinga](/doc/img/form.png?raw=true "jira form in icinga") 
 ### Requirements
  - Icinga 1.x
  - Perl 5.x
