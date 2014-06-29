@@ -40,7 +40,7 @@ Install the needed Library (required by XML-Parser):
 apt-get install libexpat1-dev
 ```
 
-copy the perl script to the right place and make shure its executable: 
+copy the perl script to the right place and make shure its executable. 
 Edit the credential variabls in the beginning of the scrip. 
 ```
 cp jiraplugin.pl /usr/lib/cgi-bin/icinga/jiraplugin.pl
@@ -51,6 +51,19 @@ Update your generic-service template (somewhere here : /etc/icinga/objects/templ
 ```
 action_url                      jiraplugin.pl?hostname=$HOSTNAME$&servicedesc=$SERVICEDESC$&serviceoutput=$SERVICEOUTPUT$
         }
+```
+
 ### How to use
+Since the serviceoutput is not compiled in runtime, its not available to add it automaticly. So we have to copy it manualy. 
+
+1. Click on the gear icon
+2. Fill out the form and chose if you want to have the alert acknowledged in icinga.
+
+DONE 
+
+
+
+
+
 
 
