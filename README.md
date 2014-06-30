@@ -37,7 +37,7 @@ wget http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/XML-Parser-2.41.tar.gz
 ```
 
 copy the perl script to the right place and make shure its executable. 
-Edit the credential variabls in the beginning of the scrip. 
+Edit the credential variables in the beginning of the script. 
 ```
 cp jiraplugin.pl /usr/lib/cgi-bin/icinga/jiraplugin.pl
 chmod +x /usr/lib/cgi-bin/icinga/jiraplugin.pl
