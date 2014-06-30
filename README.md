@@ -46,7 +46,6 @@ chmod +x /usr/lib/cgi-bin/icinga/jiraplugin.pl
 Update your generic-service template (somewhere here : /etc/icinga/objects/templates.cfg ) to add the icon to every services:
 ```
 action_url                      jiraplugin.pl?hostname=$HOSTNAME$&servicedesc=$SERVICEDESC$&serviceoutput=$SERVICEOUTPUT$
-        }
 ```
 
 ### How to use
